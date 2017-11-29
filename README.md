@@ -15,3 +15,6 @@ to run:
 git clone https://github.com/MJGrey/autoi3-gaps
 ./install_i3_dependencies.sh
 
+to set urxvt as standard terminal, type the following in cli:
+sudo update-alternatives --config x-terminal-emulator and choose it out of the list.
+

@@ -42,7 +42,7 @@ sudo apt-get install mpd -y
 sudo apt-get install mpv -y
 sudo apt-get install calcurse -y
 sudo pip3 install pywal -y
-sudo pip3 install polybar -y
+#sudo pip3 install polybar -y
 
 # From: https://benjames.io/2017/09/03/installing-i3-gaps-on-ubuntu-16-04/
 

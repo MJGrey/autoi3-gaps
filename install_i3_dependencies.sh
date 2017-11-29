@@ -20,7 +20,7 @@ echo " ---------------------------------------------------------------"
 
 echo "These are the programs and dependencies"
 
-echo mercesletifer | sudo -S apt-get install git -y
+
 sudo apt-get install python python3 python-pip python3-pip python-dev build essen$
 sudo pip install --upgrade -y && sudo pip install upgrade --virtualenv
 sudo apt-get install net-tools -y
@@ -41,9 +41,8 @@ sudo apt-get install ncmpcpp -y
 sudo apt-get install mpd -y
 sudo apt-get install mpv -y
 sudo apt-get install calcurse -y
-
-pip install pywal
-pip install polybar
+sudo pip3 install pywal -y
+sudo pip3 install polybar -y
 
 # From: https://benjames.io/2017/09/03/installing-i3-gaps-on-ubuntu-16-04/
 

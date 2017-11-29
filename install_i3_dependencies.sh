@@ -76,10 +76,22 @@ cp /etc/i3/config ~/.i3/config
 
 cd ~/i3-gaps_install
 git clone https://github.com/MJGrey/autoi3-gaps
+cd autoi3-gaps/
 
-# pywal from Dylan Araps
+cp .bashrc ~/
+cp .bash_profile ~/
+cp .gtkrc-2.0 ~/
+cp .msmtprc ~/
+cp .offlineimaprc ~/
+cp .Rprofile ~/
+cp . tmux.conf ~/
+cp .Xauthority ~/
+cp .Xdefaults ~/
+cp .Xrespirces ~/
+cp .xinitrc ~/
 
-git clone https://github.com/dylanaraps/pywal
+cd .config/
+cp -r * ~/.confg/
 
 
 
